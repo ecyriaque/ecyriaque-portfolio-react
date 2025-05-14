@@ -16,6 +16,19 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 7,
+      title: "Mario Party Jamboree",
+      category: "Web Development",
+      image: `${process.env.PUBLIC_URL}/asset/img/mario-party.png`,
+      tech: "React, JavaScript",
+      github: "https://github.com/ecyriaque/mario-party-jamboree",
+      demo: "",
+      description:
+        "Application React qui sélectionne aléatoirement un plateau de jeu Mario Party et indique à l'utilisateur sur lequel jouer. Développée dans le cadre d'un cours dispensé par Alex Moulinneuf.",
+      fullDescription:
+        "Application React qui sélectionne aléatoirement un plateau de jeu Mario Party et indique à l'utilisateur sur lequel jouer. Contrairement à un mini-jeu, cette application sert d'outil pour les joueurs de Mario Party en leur proposant une sélection aléatoire de plateaux. Développée dans le cadre d'un cours React dispensé par Alex Moulinneuf, cette application démontre l'utilisation de React pour créer une interface utilisateur simple mais fonctionnelle.",
+    },
+    {
       id: 1,
       title: "Refonte d'Éditeur d'Emploi du Temps",
       category: "Web Development",
