@@ -1,0 +1,45 @@
+.navbar-custom {
+  padding: 20px 0;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
+
+.navbar-custom.scrolled {
+  padding: 10px 0;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom.scrolled .navbar-brand {
+  color: #212529;
+}
+
+.navbar-custom .nav-link {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.9) !important;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.navbar-custom.scrolled .nav-link {
+  color: #212529 !important;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}

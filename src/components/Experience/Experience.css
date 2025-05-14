@@ -1,0 +1,101 @@
+.experience-section {
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+
+.experience-timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience-timeline::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: #e9ecef;
+  top: 0;
+  bottom: 0;
+  left: 16.5%;
+  margin-left: -1px;
+}
+
+.experience-item {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0d6efd;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 0 auto 15px auto;
+  z-index: 2;
+  position: relative;
+}
+
+.experience-period {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.experience-content {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.experience-content h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #343a40;
+}
+
+.experience-content h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+.experience-content p {
+  color: #6c757d;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .experience-timeline::before {
+    left: 50%;
+  }
+
+  .experience-icon {
+    margin-bottom: 25px;
+  }
+
+  .experience-content {
+    padding: 20px;
+  }
+
+  .experience-content h3 {
+    font-size: 20px;
+  }
+
+  .experience-content h4 {
+    font-size: 15px;
+  }
+}
