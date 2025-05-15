@@ -8,8 +8,6 @@ import {
   FaMobile,
   FaCogs,
   FaTools,
-  FaCloud,
-  FaLaptopCode,
 } from "react-icons/fa";
 import "./Skills.css";
 
@@ -19,7 +17,7 @@ const Skills = () => {
       id: 1,
       title: "Développement Web",
       icon: <FaCode />,
-      skills: ["HTML5/CSS3", "JavaScript", "React.js", "Angular"],
+      skills: ["HTML5/CSS3", "JavaScript", "React.js", "Angular", "symfony"],
     },
     {
       id: 2,
@@ -37,7 +35,7 @@ const Skills = () => {
       id: 4,
       title: "Développement Mobile",
       icon: <FaMobile />,
-      skills: ["Android (Java)", "React Native", "Flutter"],
+      skills: ["Android (Java)"],
     },
     {
       id: 5,
@@ -77,8 +75,8 @@ const Skills = () => {
                 </div>
                 <div className="skill-content">
                   <ul className="skill-list">
-                    {category.skills.map((skill, idx) => (
-                      <li key={idx} className="skill-list-item">
+                    {category.skills.map((skill) => (
+                      <li key={skill} className="skill-list-item">
                         {skill}
                       </li>
                     ))}
